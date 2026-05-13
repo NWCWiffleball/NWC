@@ -4,7 +4,19 @@ body {
     background-color: darkgrey;
 }
 
+.album-grid {
+    display: grid;
+    /* This creates columns that resize automatically */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; /* Puts space between the photos */
+    padding: 20px;
+}
 
+.gallery-img {
+    width: 100%; /* Makes the image fit inside the card */
+    height: auto;
+    border-radius: 8px; /* Optional: rounds the corners slightly */
+}
 
 
 
