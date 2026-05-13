@@ -8,8 +8,8 @@ body {
     display: grid;
     /* This creates columns that resize automatically */
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px; /* Puts space between the photos */
-    padding: 10px;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .photo-card {
