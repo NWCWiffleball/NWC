@@ -7,8 +7,8 @@ body {
 .album-grid {
     display: grid;
     /* This creates columns that resize automatically */
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    gap: 20px; /* Puts space between the photos */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px; /* Puts space between the photos */
     padding: 20px;
 }
 
