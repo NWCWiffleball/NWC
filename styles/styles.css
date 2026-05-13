@@ -12,6 +12,14 @@ body {
     padding: 20px;
 }
 
+.photo-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.3s; /* Move transition here for smoother exit too */
+}
+
+
 .gallery-img {
     width: 100%; /* Makes the image fit inside the card */
     height: auto;
