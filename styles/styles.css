@@ -10,7 +10,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     width: 95%;
     margin: 0 auto;
-    gap: 10px;
+    gap: 30px;
+    padding: 240px 0;
 }
 
 .photo-card {
