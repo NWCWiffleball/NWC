@@ -18,6 +18,13 @@ body {
 
 }
 
+.madisonville-flier {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%   /* Ensures it doesn't overflow on small screens */
+
+}
+
 
 
 
