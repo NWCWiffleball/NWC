@@ -13,17 +13,16 @@ body {
 }
 
 .photo-card {
-    background: white;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: 0.3s; /* Move transition here for smoother exit too */
+    background: transparent !important; /* Forces the white background to disappear */
+    box-shadow: none !important;      /* Removes any shadow that might look like a border */
+    padding: 0 !important;             /* Eliminates inner spacing pulling the text away */
 }
 
-
 .gallery-img {
-    width: 100%; /* Makes the image fit inside the card */
-    height: auto;
-    border-radius: 8px; /* Optional: rounds the corners slightly */
+    display: block;
+    width: 100%;       /* Ensures the image fills the card width */
+    height: auto;      /* Keeps the image aspect ratio perfect */
+    border-radius: 8px; /* Optional: adds a nice subtle rounded corner directly to the image */
 }
 
 .photo-card:hover {
