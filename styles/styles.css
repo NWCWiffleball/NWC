@@ -33,6 +33,21 @@ body {
 }
 
 
+.photo-caption {
+    text-align: center;
+    padding: 8px 0;
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Resets default browser margins for figures */
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 
 
